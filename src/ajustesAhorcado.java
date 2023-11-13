@@ -11,9 +11,15 @@ public class ajustesAhorcado {
         this.numVidas = numeroVidas;
     }
 
-    public void getPalabra(){
+    public String getPalabra(){
         int posicion = (int) (Math.random() * listaPalabras.length);
-        System.out.println(listaPalabras[posicion]);
+        return listaPalabras[posicion];
     }
+
+    public void mostrarPalabra(){
+        System.out.println(getPalabra());
+    }
+
+
 
 }

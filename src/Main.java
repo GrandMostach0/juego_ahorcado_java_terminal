@@ -5,7 +5,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         ajustesAhorcado  ahorcado = new ajustesAhorcado(5);
 
-        ahorcado.getPalabra();
+
 
     }
 }
