@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ajustesAhorcado {
 
-    //array de las palabras a agregar
+    //Array donde esta guardado las palabras que luego se ecogen al alzar
     private String listaPalabras[] = {"gato", "perro", "pajaro", "vaca", "cabra", "becerro"};
     private char palabraSelccionada[];
     String palabraElejida = "No se ha seleccionado ninguno";
